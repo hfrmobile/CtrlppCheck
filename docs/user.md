@@ -37,7 +37,7 @@ Included are, among many others, these checks:
 - unused functions
 - Dead code
 - Comparison is always true / false
-- Return value of a specific function is not used e.g. return from dpExists ()
+- Return value of a specific function is not used e.g. return from `dpExists()`
 
 Please understand that there are limits of CtrlppCheck. CtrlppCheck is rarely wrong about reported errors. But there are many bugs that it doesn't detect. You will find more bugs in your software by testing your software carefully.
 
